@@ -1,0 +1,155 @@
+{
+    "plot_data_dirs": {
+        "one-three-chasers_single-moving-target": {
+            "0": "data/one-three-chasers_single-moving-target/0/plot_data"
+        },
+        "one-chaser_one-target_2d": {
+            "0": "data/one-chaser_one-target_2d/0/plot_data"
+        },
+        "two-chasers_one-target_2d": {
+            "0": "data/two-chasers_one-target_2d/0/plot_data"
+        },
+        "three-chasers_one-target_2d": {
+            "0": "data/three-chasers_one-target_2d/0/plot_data"
+        },
+        "four-chasers_one-target_2d": {
+            "0": "data/four-chasers_one-target_2d/0/plot_data"
+        }
+    },
+    "animation": {
+        "one-three-chasers_single-moving-target": {
+            "0": {
+                "min_width": 4.0,
+                "save_filename": "one-three-chasers_single-moving-target_animation.mp4",
+                "max_num_trajectories": 0,
+                "should_randomize": true,
+                "figsize": [16.0, 16.0],
+                "arrow_length": 0.5,
+                "ms_per_frame": 100
+            }
+        },
+        "one-chaser_one-target_2d": {
+            "0": {
+                "min_width": 4.0,
+                "save_filename": "one-chaser_one-target_2d_animation.mp4",
+                "max_num_trajectories": 0,
+                "should_randomize": true,
+                "figsize": [16.0, 16.0],
+                "arrow_length": 0.5,
+                "ms_per_frame": 100
+            }
+        },
+        "two-chasers_one-target_2d": {
+            "0": {
+                "min_width": 4.0,
+                "save_filename": "two-chasers_one-target_2d_animation.mp4",
+                "max_num_trajectories": 0,
+                "should_randomize": true,
+                "figsize": [16.0, 16.0],
+                "arrow_length": 0.5,
+                "ms_per_frame": 100
+            }
+        },
+        "three-chasers_one-target_2d": {
+            "0": {
+                "min_width": 4.0,
+                "save_filename": "three-chasers_one-target_2d_animation.mp4",
+                "max_num_trajectories": 0,
+                "should_randomize": true,
+                "figsize": [16.0, 16.0],
+                "arrow_length": 0.5,
+                "ms_per_frame": 100
+            }
+        },
+        "four-chasers_one-target_2d": {
+            "0": {
+                "min_width": 4.0,
+                "save_filename": "four-chasers_one-target_2d_animation.mp4",
+                "max_num_trajectories": 0,
+                "should_randomize": true,
+                "figsize": [16.0, 16.0],
+                "arrow_length": 0.5,
+                "ms_per_frame": 100
+            }
+        }
+    },
+    "required_time": [
+        {
+            "datasets": {
+                "one-three-chasers_single-moving-target": {
+                    "0": {
+                        "label": "$c_{1 \\sim 3}$"
+                    }
+                },
+                "one-chaser_one-target_2d": {
+                    "0": {
+                        "label": "$c_{1}$"
+                    }
+                },
+                "two-chasers_one-target_2d": {
+                    "0": {
+                        "label": "$c_{2}$"
+                    }
+                },
+                "three-chasers_one-target_2d": {
+                    "0": {
+                        "label": "$c_{3}$"
+                    }
+                },
+                "four-chasers_one-target_2d": {
+                    "0": {
+                        "label": "$c_{4}$"
+                    }
+                }
+            },
+            "save_filename": "time_required.svg",
+            "figsize": [5.511811, 5.511811],
+            "baseline_label": "Baseline",
+            "fit_label_template": "{label:s} Fit",
+            "marker_size": 1.0,
+            "scatter_alpha": 0.1,
+            "line_alpha": 0.9,
+            "chaser_terminal_speed": 1.00,
+            "target_terminal_speed": 0.25,
+            "catching_distance": 0.25,
+            "x_label": "Distance between the target and the nearest chaser, $d$ ($\\mathrm{L}$)",
+            "y_label": "Time required for interception, $t_{r}$ ($\\mathrm{T}$)",
+            "title": ""
+        }
+    ],
+    "statistics": [
+        {
+            "datasets": {
+                "one-three-chasers_single-moving-target": {
+                    "0": {
+                        "label": "c_1~3"
+                    }
+                },
+                "one-chaser_one-target_2d": {
+                    "0": {
+                        "label": "c_1"
+                    }
+                },
+                "two-chasers_one-target_2d": {
+                    "0": {
+                        "label": "c_2"
+                    }
+                },
+                "three-chasers_one-target_2d": {
+                    "0": {
+                        "label": "c_3"
+                    }
+                },
+                "four-chasers_one-target_2d": {
+                    "0": {
+                        "label": "c_4"
+                    }
+                }
+            },
+            "save_filename": "statistics.csv",
+            "chaser_terminal_speed": 1.00,
+            "target_terminal_speed": 0.25,
+            "catching_distance": 0.25
+        }
+    ]
+}

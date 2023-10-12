@@ -1,0 +1,2 @@
+matplotlib==3.6.2
+tensorflow-directml-plugin==0.3.0.dev221212

@@ -1,0 +1,59 @@
+{
+    "plot_data_dirs": {
+        "one-three-chasers_one-target_obstacle_2d": {
+            "0": "data/one-three-chasers_one-target_obstacle_2d/0/plot_data"
+        }
+    },
+    "animation": {
+        "one-three-chasers_one-target_obstacle_2d": {
+            "0": {
+                "min_width": 4.0,
+                "save_filename": "one-three-chasers_one-target_obstacle_2d_animation.mp4",
+                "max_num_trajectories": 16,
+                "should_randomize": true,
+                "figsize": [16.0, 16.0],
+                "arrow_length": 0.5,
+                "ms_per_frame": 100
+            }
+        }
+    },
+    "required_time": [
+        {
+            "datasets": {
+                "one-three-chasers_one-target_obstacle_2d": {
+                    "0": {
+                        "label": "$c_{1 \\sim 3}$"
+                    }
+                }
+            },
+            "save_filename": "required_time_original.svg",
+            "figsize": [5.511811, 5.511811],
+            "baseline_label": "Baseline",
+            "fit_label_template": "{label:s} Fit",
+            "marker_size": 1.0,
+            "scatter_alpha": 0.1,
+            "line_alpha": 0.9,
+            "chaser_terminal_speed": 1.00,
+            "target_terminal_speed": 0.25,
+            "catching_distance": 0.25,
+            "x_label": "Distance ($L$)",
+            "y_label": "Time ($T$)",
+            "title": ""
+        }
+    ],
+    "statistics": [
+        {
+            "datasets": {
+                "one-three-chasers_one-target_obstacle_2d": {
+                    "0": {
+                        "label": "c_1~3"
+                    }
+                }
+            },
+            "save_filename": "statistics_original.csv",
+            "chaser_terminal_speed": 1.00,
+            "target_terminal_speed": 0.25,
+            "catching_distance": 0.25
+        }
+    ]
+}

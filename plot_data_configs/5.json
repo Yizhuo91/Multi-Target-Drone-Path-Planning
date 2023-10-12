@@ -1,0 +1,59 @@
+{
+    "plot_data_dirs": {
+        "three-chasers_single-moving-target": {
+            "4": "data/three-chasers_two-moving-targets/4/plot_data"
+        }
+    },
+    "animation": {
+        "three-chasers_single-moving-target": {
+            "4": {
+                "min_width": 4.0,
+                "save_filename": "three-chasers_single-moving-target_one_animation.mp4",
+                "max_num_trajectories": 16,
+                "should_randomize": true,
+                "figsize": [16.0, 16.0],
+                "arrow_length": 0.5,
+                "ms_per_frame": 200
+            }
+        }
+    },
+    "required_time": [
+        {
+            "datasets": {
+                "three-chasers_single-moving-target": {
+                    "4": {
+                        "label": "$c_{1, 1}$"
+                    }
+                }
+            },
+            "save_filename": "time_required.svg",
+            "figsize": [5.511811, 5.511811],
+            "baseline_label": "Baseline",
+            "fit_label_template": "{label:s} Fit",
+            "marker_size": 1.0,
+            "scatter_alpha": 0.1,
+            "line_alpha": 0.9,
+            "chaser_terminal_speed": 1.00,
+            "target_terminal_speed": 0.25,
+            "catching_distance": 0.25,
+            "x_label": "Distance between the target and the nearest chaser, $d$ ($\\mathrm{L}$)",
+            "y_label": "Time required for interception, $t_{r}$ ($\\mathrm{T}$)",
+            "title": ""
+        }
+    ],
+    "statistics": [
+        {
+            "datasets": {
+                "three-chasers_single-moving-target": {
+                    "4": {
+                        "label": "c_1_1"
+                    }
+                }
+            },
+            "save_filename": "statistics.csv",
+            "chaser_terminal_speed": 1.00,
+            "target_terminal_speed": 0.25,
+            "catching_distance": 0.25
+        }
+    ]
+}
