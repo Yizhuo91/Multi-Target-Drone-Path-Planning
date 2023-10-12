@@ -1,15 +1,5 @@
-python -m drone_path_planning.main train three-chasers_single-moving-target --save_dir=data/three-chasers_two-moving-targets/5/saves/checkpoint --logs_dir=data/three-chasers_two-moving-targets/5/logs 
+python -m drone_path_planning.main train three-chasers_single-moving-target --save_dir=data/YOUR_DIRECTORY/saves/checkpoint --logs_dir=data/YOUR_DIRECTORY/logs 
 
-python -m drone_path_planning.main evaluate three-chasers_single-moving-target --save_dir=data/three-chasers_two-moving-targets/4/saves/checkpoint --plot_data_dir=data/three-chasers_two-moving-targets/4/plot_data --logs_dir=data/three-chasers_two-moving-targets/4/logs
+python -m drone_path_planning.main evaluate three-chasers_single-moving-target --save_dir=data/YOUR_DIRECTORY/checkpoint --plot_data_dir=data/YOUR_DIRECTORY/plot_data --logs_dir=data/YOUR_DIRECTORY/logs
 
-python -m drone_path_planning.main plot chaser_target_plotter --plot_data_config=plot_data_configs/5.json --plots_dir=data/three-chasers_two-moving-targets/4_2v4v6v
-
-
-
-
-
-python -m drone_path_planning.main train three-chasers_single-moving-target --save_dir=data/three-chasers_single-moving-target/9_2v4v6v_pi_0.25m_c16i4/saves/checkpoint --logs_dir=data/three-chasers_single-moving-target/9_2v4v6v_pi_0.25m_c16i4/logs 
-
-python -m drone_path_planning.main evaluate three-chasers_single-moving-target --save_dir=data/three-chasers_single-moving-target/9_2v4v6v_pi_0.25m_c16i4/saves/checkpoint --plot_data_dir=data/three-chasers_single-moving-target/9_2v4v6v_pi_0.25m_c16i4/saves/plot_data --logs_dir=data/three-chasers_single-moving-targets/9_2v4v6v_pi_0.25m_c16i4/logs 
-
-python -m drone_path_planning.main plot chaser_target_plotter --plot_data_config=plot_data_configs/5.json --plots_dir=data/three-chasers_single-moving-target/9_2v4v6v_pi_0.25m_c16i4/plots
+python -m drone_path_planning.main plot chaser_target_plotter --plot_data_config=plot_data_configs/5.json --plots_dir=data/YOUR_DIRECTORY
